@@ -29,4 +29,4 @@ out_data = {"Input": inp_list,
             "Snowball": snowball_op}
 
 out_table_df = pd.DataFrame(out_data)
-print(tabulate(out_table_df, headers='keys', tablefmt='psql', showindex=False))
+print(tabulate(out_table_df, headers='keys', tablefmt='psql', showindex=False))  # step 8
