@@ -12,7 +12,7 @@ snowball = nltk.SnowballStemmer('english')
 
 # step 4
 inp_list = ["Playing", "played", "player", "studies", "studying", "studies", "happiness", "flying", "flies",
-            "connected",
+            "connected", "organisation",
             "connection", "connecting"]
 porter_op = []
 lancaster_op = []
